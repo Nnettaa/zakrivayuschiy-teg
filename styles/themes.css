@@ -4,3 +4,39 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+.theme-dark {
+    --bg-color: rgba(0, 0, 0, 1);
+    --accent-color: rgba(0, 204, 20, 1);
+    --accent-color-opacity: rgba(0, 204, 20, 0.6);
+    --tittle-weight: 785;
+    --text-weight: 465;
+    --bg-image: url(../svg/pattern-dark.svg);
+    --heart-contour: rgba(0, 204, 20, 1);
+    --heart-fill: #FF0000;
+}
+
+.theme-light {
+    --bg-color: rgba(255, 255, 255, 1);
+    --accent-color: rgba(0, 0, 0, 1);
+    --accent-color-opacity: rgb(0, 0, 0, 0.6);
+    --tittle-weight: 700;
+    --text-weight: 400;
+    --bg-image: url(../svg/pattern-light.svg);
+    --heart-contour:rgba(0, 0, 0, 1);
+    --heart-fill: #FF0000;
+}
+
+@media 
+    (prefers-color-scheme: dark) {
+
+    :root {   
+        --bg-color: rgba(0, 0, 0, 1);
+        --accent-color: rgba(0, 204, 20, 1);
+        --accent-color-opacity: rgba(0, 204, 20, 0.6);
+        --tittle-weight: 785;
+        --text-weight: 465;
+        --bg-image: url(../svg/pattern-dark.svg);
+        --heart-contour: rgba(0, 204, 20, 1);
+        --heart-fill: #FF0000;
+        }
+}
