@@ -12,7 +12,7 @@
     --text-weight: 465;
     --bg-image: url(../svg/pattern-dark.svg);
     --heart-contour: rgba(0, 204, 20, 1);
-    --heart-fill: #FF0000;
+    --heart-fill: #ff0000;
 }
 
 .theme-light {
@@ -22,14 +22,12 @@
     --tittle-weight: 700;
     --text-weight: 400;
     --bg-image: url(../svg/pattern-light.svg);
-    --heart-contour:rgba(0, 0, 0, 1);
-    --heart-fill: #FF0000;
+    --heart-contour: rgba(0, 0, 0, 1);
+    --heart-fill: #ff0000;
 }
 
-@media 
-    (prefers-color-scheme: dark) {
-
-    :root {   
+@media (prefers-color-scheme: dark) {
+    :root {
         --bg-color: rgba(0, 0, 0, 1);
         --accent-color: rgba(0, 204, 20, 1);
         --accent-color-opacity: rgba(0, 204, 20, 0.6);
@@ -37,6 +35,6 @@
         --text-weight: 465;
         --bg-image: url(../svg/pattern-dark.svg);
         --heart-contour: rgba(0, 204, 20, 1);
-        --heart-fill: #FF0000;
-        }
+        --heart-fill: #ff0000;
+    }
 }

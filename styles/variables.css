@@ -9,6 +9,5 @@
     --accent-color-opacity: rgb(0, 0, 0, 0.6);
     --bg-image: url(../svg/pattern-light.svg);
     --heart-contour:rgba(0, 0, 0, 1);
-    --heart-fill: #FF0000;
-  }
-  
+    --heart-fill: #ff0000;
+}
